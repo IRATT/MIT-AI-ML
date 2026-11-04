@@ -1,0 +1,52 @@
+[
+  {
+    "id": "foundations",
+    "title": "Data visualization & statistics",
+    "verb": "Understand",
+    "summary": "Read the data in context: distributions, uncertainty, relationships and meaningful segments.",
+    "reflection": "I begin by examining how the data was collected, how it varies and which groups a headline result may conceal. Visualization and statistics help turn an apparent pattern into a question that can be investigated.",
+    "decision": "What does the evidence say, and how uncertain is it?",
+    "methods": "Visualization, probability distributions, correlation and clustering",
+    "modules": [1, 2, 3, 4]
+  },
+  {
+    "id": "prediction",
+    "title": "Predictive modeling",
+    "verb": "Anticipate",
+    "summary": "Estimate outcomes and evaluate predictions against the consequences of the decision.",
+    "reflection": "Regression, classification and recommendation methods connect observed data to future outcomes. I evaluate generalization and choose metrics and thresholds that reflect the costs of different errors in the intended use.",
+    "decision": "What is likely to happen, and which prediction errors matter most?",
+    "methods": "Linear regression, logistic regression and collaborative filtering",
+    "modules": [5, 6, 7, 8]
+  },
+  {
+    "id": "optimization",
+    "title": "Optimization",
+    "verb": "Decide",
+    "summary": "Turn objectives, constraints and trade-offs into a feasible recommendation.",
+    "reflection": "Optimization makes the decision explicit: what can change, what must be respected and what outcome is valuable. I check units, constraints and sensitivity so a recommendation remains connected to the operating conditions that support it.",
+    "decision": "Which feasible action best serves the objective?",
+    "methods": "Linear programming, sensitivity analysis, integer decisions and network flow",
+    "modules": [9, 10, 11, 12, 13]
+  },
+  {
+    "id": "advanced-prediction",
+    "title": "Advanced predictive modeling",
+    "verb": "Refine",
+    "summary": "Model nonlinear relationships and test whether added complexity improves useful performance.",
+    "reflection": "Trees and ensembles extend the predictive toolkit to more complex relationships. I assess performance on unseen data, class imbalance and the limits of feature explanations before using a model to guide a consequential choice.",
+    "decision": "Does a richer model improve the decision on new data?",
+    "methods": "Classification and regression trees, random forests and XGBoost",
+    "modules": [14, 15]
+  },
+  {
+    "id": "deep-learning",
+    "title": "Deep learning",
+    "verb": "Interpret",
+    "summary": "Use learned representations to work with images, language and complex patterns.",
+    "reflection": "Neural networks, transfer learning and NLP expand the kinds of information a system can use. I connect model outputs to task-specific validation, domain context and human review, particularly where a plausible output can still contain a consequential error.",
+    "decision": "How can complex inputs support a reliable operational workflow?",
+    "methods": "Neural networks, TensorFlow/Keras, transfer learning, NLP and transformers",
+    "modules": [17, 18, 19, 20, 21]
+  }
+]

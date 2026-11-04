@@ -55,3 +55,7 @@ Publishing: GitHub Pages, `main` branch, repository root. No private learner URL
 ## Rights
 
 Portfolio presentation and original commentary © 2026 Ian Alleyne. Embedded educational cases, starter code, templates and third-party material retain their respective ownership. No blanket license is applied to third-party coursework.
+
+## Program takeaways
+
+`learning.html` connects the five themes in the supplied closing Key Takeaways slide and 1:17 Program Wrap-Up to the 24 module pages. The homepage provides a compact introduction; `data/takeaways.json` holds the theme summaries and module mappings. Reflections and the decision-to-value framework are portfolio synthesis.
