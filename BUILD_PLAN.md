@@ -12,6 +12,7 @@ Present Ian Alleyne’s completed 24-module MIT xPRO course as a professional, e
 | 24 module pages | Concepts, personal work, decision-making insight, potential application, artifacts and final activity grades |
 | Four case studies | Clinical AI, alarm intelligence, production optimization and network logistics |
 | Achievement | All module totals, total points, grade interpretation and public credential |
+| Credentials & recognition | Official completion-certificate image, two exemplary-assignment badges, issue dates and verification links |
 | Evidence & authorship | Source provenance, assistance, export limitations and corrections |
 | Portfolio plan | Reader-facing explanation of this structure and future work |
 

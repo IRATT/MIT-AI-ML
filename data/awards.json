@@ -1,0 +1,53 @@
+[
+  {
+    "id": "completion-certificate",
+    "type": "Professional certificate",
+    "title": "Advanced Analytics with AI, ML, and Data Science",
+    "official_title": "Professional Certificate in Advanced Analytics with AI, ML, and Data Science",
+    "issuer": "MIT xPRO",
+    "recipient": "Ian Alleyne",
+    "date": "2026-10-30",
+    "date_label": "30 October 2026",
+    "description": "Completion of the professional certificate, with 36 Continuing Education Units (CEUs) shown on the certificate.",
+    "image": "advanced-analytics.png",
+    "image_alt": "Official MIT xPRO completion certificate issued to Ian Alleyne for Advanced Analytics with AI, ML, and Data Science, October 2026, awarding 36 CEUs.",
+    "image_source": "Official certificate image downloaded from the credential page.",
+    "url": "https://certificates.emeritus.org/09a749b7-fb41-4777-8b93-559e1039989c?learnersui=true",
+    "related_url": "achievement.html",
+    "related_label": "View the 100% course record"
+  },
+  {
+    "id": "exemplary-assignment-22",
+    "type": "Exemplary assignment · 22.1",
+    "title": "Propose Model Updates Using Third-Party Data",
+    "official_title": "Professional Certificate in Data Science and Analytics",
+    "issuer": "Emeritus · MIT xPRO program",
+    "recipient": "Ian Alleyne",
+    "date": "2026-10-19",
+    "date_label": "19 October 2026",
+    "description": "Recognition for exemplary work integrating driver-behavior data into pricing models, with attention to causal modeling and telematics analysis.",
+    "image": "exemplary-assignment-22.jpg",
+    "image_alt": "Official MIT xPRO and Emeritus Exemplary Assignment badge for Ian Alleyne, associated with Assignment 22.1.",
+    "image_source": "Screenshot of the personalized badge on the official credential page.",
+    "url": "https://certificates.emeritus.org/428dd1db-5fd5-4a80-9cf2-eeeb34bba970#acc.ELe3M9dK",
+    "related_url": "modules/22.html",
+    "related_label": "Explore the recognized work"
+  },
+  {
+    "id": "exemplary-assignment-16",
+    "type": "Exemplary assignment · 16.1",
+    "title": "Analyzing Potential Harm within AI",
+    "official_title": "Professional Certificate in Data Science and Analytics",
+    "issuer": "Emeritus · MIT xPRO program",
+    "recipient": "Ian Alleyne",
+    "date": "2026-09-12",
+    "date_label": "12 September 2026",
+    "description": "Recognition for exemplary analysis of algorithmic harm, bias, ethical considerations and ways to reduce disparities in AI predictions.",
+    "image": "exemplary-assignment-16.jpg",
+    "image_alt": "Official MIT xPRO and Emeritus Exemplary Assignment badge for Ian Alleyne, associated with Assignment 16.1.",
+    "image_source": "Screenshot of the personalized badge on the official credential page.",
+    "url": "https://certificates.emeritus.org/f18631bc-e922-4bb3-bc71-ddd75ec723ff#acc.rnGO7HP1",
+    "related_url": "modules/16.html",
+    "related_label": "Explore the recognized work"
+  }
+]
