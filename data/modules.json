@@ -1,0 +1,1236 @@
+[
+  {
+    "number": 1,
+    "title": "Data Science Fundamentals",
+    "category": "Foundations",
+    "headline": "See the system behind the statistic.",
+    "skills": [
+      "Systems thinking",
+      "Summary statistics",
+      "Simpson’s paradox"
+    ],
+    "overview": "Examined how data, models and operational decisions fit together. The hospital-discharge case and simplified-data exercise developed a habit of questioning the population, aggregation and decision context before choosing an algorithm.",
+    "work": "My written reflection used CT-scanner demand to show how aggregated physician activity can hide differences in case mix and workload. A useful representation must preserve the information needed for the decision.",
+    "insight": "Segment the data before interpreting a headline average; a relationship can change when relevant groups are examined separately.",
+    "application": "Healthcare operations: assess patient flow and resource demand with appropriate segmentation.",
+    "earned": 39,
+    "possible": 39,
+    "activities": [
+      {
+        "title": "Data Science Fundamentals and Systems Approaches to Analytics [Videos 1.1–1.3 and Discussion 1.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Hospital Discharge Prediction Tool Case Study [Videos 1.4–1.7 and Discussion 1.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Hospital Discharge Prediction Tool Case Study: Model Results [Video 1.8 and Discussion 1.3]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Optima vs. Quanta Case Study [Interactive Presentation and Discussion 1.4]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Generating and Interpreting Summary Statistics [Knowledge Check 1.1]",
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "title": "Assignment 1.1: Explaining Potential Errors in Simplified Representations of Data [Assignment 1.1]",
+        "earned": 8,
+        "possible": 8
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 2,
+    "title": "Thinking About Risk and Uncertainty Through Probability Distributions",
+    "category": "Foundations",
+    "headline": "Make uncertainty part of the decision.",
+    "skills": [
+      "Probability",
+      "Distributions",
+      "Risk pooling"
+    ],
+    "overview": "Used probability distributions to represent uncertain demand and connect predictive information to prescriptive decisions. The coursework moved from a single expected value toward the range of outcomes a manager must plan for.",
+    "work": "Completed the patient-booking exercise in Codio, applying predictive data to a prescriptive model. The original hosted notebook is not exportable; this page records the task, concepts and verified assessment result.",
+    "insight": "Capacity decisions should account for variability as well as average demand. Pooling can change the risk profile when demands are not perfectly correlated.",
+    "application": "Clinic scheduling: compare booking policies against both utilization and service reliability.",
+    "earned": 20,
+    "possible": 20,
+    "activities": [
+      {
+        "title": "Employing Probability Distributions in Predictive and Prescriptive Models [Try-It Activity 2.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Retail Problem: Part One [Video 2.5 and Try-It Activity 2.3]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Retail Problem: Part Two [Interactive Presentation and Try-It Activity 2.4]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Explaining Risk Management [Discussion 2.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Analyzing Predictive Data to Develop a Prescriptive Model [Portfolio Assignment 2.1]",
+        "earned": 8,
+        "possible": 8
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 3,
+    "title": "Correlation",
+    "category": "Foundations",
+    "headline": "Understand what moves together—and why it matters.",
+    "skills": [
+      "Correlation",
+      "Covariance",
+      "Diversification"
+    ],
+    "overview": "Explored relationships between variables, including how covariance affects a combined portfolio and how correlation supports initial investigation of business data.",
+    "work": "Completed the coding assignment on analyzing data for a prescriptive model. The exercises connected measured relationships to portfolio and business decisions without treating association as proof of causation.",
+    "insight": "Two individually variable assets or workloads can produce a more stable combination when their movements differ. The benefit depends on the joint behavior.",
+    "application": "Operations planning: examine whether loads, failures or demand streams peak together.",
+    "earned": 27,
+    "possible": 27,
+    "activities": [
+      {
+        "title": "Calculating Aggregated Risk [Try-It Activity 3.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Portfolio Selection Problem [Video 3.2 and Discussion 3.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Analyzing Data to Develop a Prescriptive Model [Videos 3.3–3.4 and Assignment 3.1]",
+        "earned": 13,
+        "possible": 13
+      },
+      {
+        "title": "Covariance and Correlation [Video 3.5 and Try-It Activity 3.2]",
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 4,
+    "title": "Clustering",
+    "category": "Foundations",
+    "headline": "Turn heterogeneous customers into useful segments.",
+    "skills": [
+      "K-means",
+      "Normalization",
+      "Unsupervised learning"
+    ],
+    "overview": "Studied clustering as a way to discover structure without labeled outcomes. Airline customer segmentation provided a practical setting for considering what makes a cluster meaningful to a business.",
+    "work": "Completed the K-means coding assignment and exercises on normalization, algorithm components and clustering tradeoffs. The work emphasized choosing comparable features and interpreting groups beyond their numerical labels.",
+    "insight": "Feature scaling can change the distance calculation and therefore the clusters. A statistically compact cluster still needs an operational interpretation.",
+    "application": "Service design: segment usage patterns to tailor support, capacity and customer offerings.",
+    "earned": 37,
+    "possible": 37,
+    "activities": [
+      {
+        "title": "Customer Segmentation in the Airline Industry [Interactive Presentation and Discussion 4.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Practice Normalizing Data Using Python [Try-It Activity 4.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "K-Means Clustering [Videos 4.5–4.7 and Assignment 4.1]",
+        "earned": 10,
+        "possible": 10
+      },
+      {
+        "title": "Identifying Components of Clustering Algorithms [Videos 4.8 – 4.9 and Try-It Activity 4.2]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Pros and Cons of Clustering Methods and Module Wrap-Up [Videos 4.10–4.11 and Discussion 4.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Utilizing Clustering in a Business Context [Knowledge Check 4.1]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Reflecting on Clustering Functions in a Business Context [Discussion 4.3]",
+        "earned": 6,
+        "possible": 6
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 5,
+    "title": "Linear Regression: Part One",
+    "category": "Prediction",
+    "headline": "Explain a model in language a decision maker can use.",
+    "skills": [
+      "Multiple regression",
+      "R²",
+      "Outlier review"
+    ],
+    "overview": "Interpreted a house-price regression and examined the treatment of unusual observations. Two submitted analyses translated statistical output into recommendations and limitations.",
+    "work": "The housing memo discussed a supplied model with R² = 0.768 and construction quality, living area, garage area and basement area as predictors. The mortgage-points analysis recommended checking unusual records against their source before exclusion.",
+    "insight": "A good fit does not establish causation. Outlier thresholds are screening tools; unusual but valid cases may contain important information.",
+    "application": "Property and operational forecasting: document variable meaning, uncertainty and data-cleaning decisions.",
+    "earned": 27,
+    "possible": 27,
+    "activities": [
+      {
+        "title": "Introduction to Linear Regression [Video 5.1 and Try-It Activity 5.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Bluebikes Rentals Case Study — Introduction [Video 5.2 and Discussion 5.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Regression Outputs [Knowledge Check 5.1]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Multiple Linear Regression [Video 5.8 and Assignment 5.1]",
+        "earned": 8,
+        "possible": 8
+      },
+      {
+        "title": "Module Wrap-Up: Fit Quality and R² [Video 5.9 and Assignment 5.2]",
+        "earned": 8,
+        "possible": 8
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 6,
+    "title": "Linear Regression: Part Two",
+    "category": "Prediction",
+    "headline": "Test whether a model generalizes.",
+    "skills": [
+      "Train/test split",
+      "Overfitting",
+      "Statistical significance"
+    ],
+    "overview": "Extended linear regression from interpretation to validation. The module examined how training fit, statistical significance and out-of-sample performance answer different questions.",
+    "work": "Completed a Codio portfolio assignment using multiple regression on the diabetes case. The emphasis was on building and evaluating a prediction model rather than relying only on in-sample fit.",
+    "insight": "A more complex model can fit the training data better while making poorer predictions on new observations. Evaluation must reflect the intended use.",
+    "application": "Operational forecasting: reserve unseen data and compare candidate models against a clear baseline.",
+    "earned": 37,
+    "possible": 37,
+    "activities": [
+      {
+        "title": "Module Introduction: Building and Interpreting Managerial Predictive Models [Videos 6.1–6.2 and Discussion 6.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Reading Regression Outputs with Overfitting [Knowledge Check 6.1]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Detecting Irrelevant Variables and Overfitting [Knowledge Check 6.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Potential Issues in Datasets [Video 6.5 and Discussion 6.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Module Wrap-Up: Module Summary and Portfolio Assignment [Video 6.7 and Portfolio Assignment 6.1]",
+        "earned": 14,
+        "possible": 14
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 7,
+    "title": "Logistic Regression",
+    "category": "Prediction",
+    "headline": "Connect classification errors to business value.",
+    "skills": [
+      "Logistic regression",
+      "Confusion matrix",
+      "Thresholds"
+    ],
+    "overview": "Applied logistic regression to loan repayment and interpreted the consequences of classification errors. The executive memo considered both predictive quality and a lending decision.",
+    "work": "The submitted LendingClub case memo reported approximately 77% test accuracy using a 70/30 split. The assignment scenario estimated profit increasing from about $5.6 million to $6.1 million. These are course-case estimates, not realized client results.",
+    "insight": "Accuracy alone is insufficient. False approvals and false denials carry different costs, so thresholds and confusion-matrix outcomes matter.",
+    "application": "Decision support: pair classification metrics with explicit business costs and human review.",
+    "earned": 38,
+    "possible": 38,
+    "activities": [
+      {
+        "title": "Building and Interpreting Managerial Predictive Models [Video 7.1 and Discussion 7.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Understanding the Loan Repayment Dataset [Knowledge Check 7.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Classification vs. Regression [Video 7.3 and Try-It Activity 7.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Output Results from the Training/Test Data [Knowledge Check 7.2]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Confusion Matrices [Knowledge Check 7.3]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Assignment 7.1: Evaluating the Success of a Model [Assignment 7.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Building a Predictive Model [Portfolio Assignment 7.1]",
+        "earned": 11,
+        "possible": 11
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 8,
+    "title": "Collaborative Filtering",
+    "category": "Prediction",
+    "headline": "Learn preferences from incomplete ratings.",
+    "skills": [
+      "Collaborative filtering",
+      "Latent factors",
+      "Recommenders"
+    ],
+    "overview": "Explored recommendation models that infer preferences from user–item interactions. Archetypes and latent representations offer a way to work with sparse rating matrices.",
+    "work": "Completed the Jester joke-recommendation assignment and a music collaborative-filtering portfolio assignment in Codio. These exercises developed and evaluated predictions for missing user–item ratings.",
+    "insight": "Observed ratings are selective. Sparsity, cold-start users and popularity effects should shape the interpretation of recommendation quality.",
+    "application": "Product personalization: recommend useful next actions while retaining exploration and user choice.",
+    "earned": 53,
+    "possible": 53,
+    "activities": [
+      {
+        "title": "Identifying Smaller Sample Types [Discussion 8.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Recommender Systems [Video 8.2 and Discussion 8.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Archetypes [Video 8.5–8.6 and Assignment 8.1]",
+        "earned": 18,
+        "possible": 18
+      },
+      {
+        "title": "MovieLens Data [Knowledge Check 8.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Model and Performance for MovieLens Ratings [Video 8.7–8.8 and Discussion 8.3]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Observing the Data and Module Wrap-Up [Video 8.9–8.10 and Discussion 8.4]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Creating a Collaborative Filtering Model [Portfolio Assignment 8.1]",
+        "earned": 9,
+        "possible": 9
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 9,
+    "title": "Optimization: Part One",
+    "category": "Optimization",
+    "headline": "Express a management decision as a solvable model.",
+    "skills": [
+      "Linear programming",
+      "Excel Solver",
+      "Constraints"
+    ],
+    "overview": "Formulated decision variables, objectives and constraints for advertising, production and coal procurement. Three assignments developed the translation from a business narrative to a mathematical model.",
+    "work": "The submitted coal model records a total supply cost of $73,267,500 and an average of about $59.81 per ton. Advertising coverage was expressed as explicit audience constraints. Reviewed numerical extracts are available below.",
+    "insight": "Units and constraint direction deserve as much attention as the objective. A solver optimizes the model it receives, including any formulation errors.",
+    "application": "Procurement and capacity allocation: make tradeoffs and feasibility explicit before comparing options.",
+    "earned": 34,
+    "possible": 34,
+    "activities": [
+      {
+        "title": "Module Introduction: Linear Optimization Models [Videos 9.1–9.2 and Discussion 9.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Formulating and Solving Optimization Problems [Videos 9.3–9.4 and Assignment 9.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Solving Optimization Models Using Excel [Assignment 9.2]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Solving Linear Functions [Knowledge Check 9.1]",
+        "earned": 1,
+        "possible": 1
+      },
+      {
+        "title": "Key Terms and Components of Linear Optimization Models [Knowledge Check 9.2]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Module Wrap-Up: Optimization in Action [Video 9.9 and Discussion 9.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Formulating a Management Problem as a Linear Optimization Model [Assignment 9.3]",
+        "earned": 8,
+        "possible": 8
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Reviewed product-mix model extract",
+        "file": "production-model-extract.csv",
+        "format": "CSV",
+        "name": "production-model-extract.csv"
+      },
+      {
+        "title": "Reviewed coal procurement results",
+        "file": "coal-procurement-extract.csv",
+        "format": "CSV",
+        "name": "coal-procurement-extract.csv"
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Optimization: Part Two",
+    "category": "Optimization",
+    "headline": "Find the bottleneck before funding more capacity.",
+    "skills": [
+      "Product mix",
+      "Shadow prices",
+      "Executive communication"
+    ],
+    "overview": "Used the Craft Studio Furnishings case to connect an optimal production mix with resource utilization and a management recommendation.",
+    "work": "My submitted memo recommends 0 table chairs, 4 easy chairs, 20 love seats, 10 coffee tables and 10 end tables per week, for a modeled weekly contribution of $2,316. Frame manufacturing and finishing are fully utilized; stretching has spare capacity.",
+    "insight": "Additional capacity creates value only where it relaxes a binding limitation within the relevant sensitivity range. The recommendation must change when the inputs change.",
+    "application": "Manufacturing and service operations: prioritize investments using marginal value, then re-solve the model.",
+    "earned": 26,
+    "possible": 26,
+    "activities": [
+      {
+        "title": "Glass Vase Optimization Problem [Knowledge Check 10.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "The Filatoi Riuniti Case Solution [Video 10.5 and Discussion 10.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Craft Studio Furnishings (CSF) Case Study [Assignment 10.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Module Wrap-Up [Video 10.6 and Discussion 10.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Writing a Memo to a Decision Maker [Portfolio Assignment 10.1]",
+        "earned": 4,
+        "possible": 4
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 11,
+    "title": "Optimization: Part Three",
+    "category": "Optimization",
+    "headline": "Combine demand prediction with pricing decisions.",
+    "skills": [
+      "Demand modeling",
+      "Nonlinear optimization",
+      "Validation"
+    ],
+    "overview": "Built a demand model using current price, two lagged prices and seasonal terms, then used it to recommend an eight-week pricing schedule for an amusement-park case.",
+    "work": "The submitted analysis explains the negative current-price coefficient and positive lagged-price effects. It also proposes price-change limits, additional demand drivers and a controlled field experiment to evaluate actual value.",
+    "insight": "Optimized revenue estimated by the same model is not independent evidence of improvement. A prospective experiment is needed to test business impact.",
+    "application": "Commercial planning: use forecast-driven optimization with price guardrails and ongoing recalibration.",
+    "earned": 29,
+    "possible": 29,
+    "activities": [
+      {
+        "title": "Linear Optimization Model [Video 11.1 and Try-It Activity 11.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "The Analytics Edge of Retail Optimization [Interactive Presentation and Discussion 11.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Predicting Demand [Video 11.2 and Try-It Activity 11.2]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Evaluating a Model [Knowledge Check 11.1]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Assessing Value and Module Wrap-Up [Videos 11.8–11.9 and Discussion 11.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Building a Demand Prediction Model [Assignment 11.1]",
+        "earned": 8,
+        "possible": 8
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 12,
+    "title": "Optimization: Part Four",
+    "category": "Optimization",
+    "headline": "Allocate scarce opportunities under real constraints.",
+    "skills": [
+      "Integer programming",
+      "Ad slates",
+      "Budget limits"
+    ],
+    "overview": "Modeled sponsored-search advertising decisions, combining predicted click behavior with allocation and advertiser-budget constraints.",
+    "work": "Submitted a price-per-click calculation workbook and a slate-allocation workbook with Solver reports. The latter records an integer solution objective of 58.51 in the course’s model units.",
+    "insight": "Discrete choices cannot always be treated as fractional quantities. Budget feasibility, integrality and the objective’s units all need explicit checks.",
+    "application": "Digital allocation: balance expected value with eligibility, capacity and budget restrictions.",
+    "earned": 27,
+    "possible": 27,
+    "activities": [
+      {
+        "title": "Integer Linear Optimization Modeling: Sponsored Internet Search Advertising [Interactive Presentation, Video 12.1, and Assignment 12.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Decision Variables and Objective Functions [Videos 12.3–12.4 and Try-It Activity 12.2]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Google Display Advertising [Knowledge Check 12.1]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Defining Integers Within a Function Model [Discussion 12.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Constraints [Videos 12.5–12.6 and Assignment 12.2]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "The Solution and Module Wrap-Up [Video 12.7 and Discussion 12.2]",
+        "earned": 6,
+        "possible": 6
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Reviewed price-per-click calculations",
+        "file": "advertising-ppc-extract.csv",
+        "format": "CSV",
+        "name": "advertising-ppc-extract.csv"
+      },
+      {
+        "title": "Reviewed integer slate-allocation results",
+        "file": "advertising-slate-extract.csv",
+        "format": "CSV",
+        "name": "advertising-slate-extract.csv"
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Optimization: Part Five",
+    "category": "Optimization",
+    "headline": "Design the least-cost route through a network.",
+    "skills": [
+      "Python",
+      "Gurobipy",
+      "Network flow"
+    ],
+    "overview": "Worked through a landfill logistics model with supply centers, transfer depots and destination requirements. The submitted notebook contains the formulation and executed solver output.",
+    "work": "The notebook reports a minimum modeled transportation cost of $541,000, using 29 flow variables and 16 constraints. The formulation enforces center limits, landfill requirements, depot conservation and depot throughput limits.",
+    "insight": "The executed flow table is the reference for this portfolio. It routes 80,000 units from Staten Island to C3; the written dashboard labels that destination C4 in a transcription error.",
+    "application": "Supply-chain and infrastructure planning: optimize flows while preserving capacity and conservation constraints.",
+    "earned": 26,
+    "possible": 26,
+    "activities": [
+      {
+        "title": "Network Modeling [Videos 13.3–13.4, Interactive Presentation and Try-It Activity 13.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Building Optimization Models With Gurobipy: Landfill Case Study [Assignment 13.1]",
+        "earned": 10,
+        "possible": 10
+      },
+      {
+        "title": "Syria Case Study and Model [Videos 13.5–13.6 and Try-It Activity 13.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "WFP: OPTIMUS Model Solution [Videos 13.7–13.8 and Discussion 13.1]",
+        "earned": 6,
+        "possible": 6
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Submitted landfill optimization notebook",
+        "file": "Assignment_13_1.ipynb",
+        "format": "IPYNB",
+        "name": "Assignment_13_1.ipynb"
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Nonlinear Models for Regression and Classification: Classification and Regression Trees",
+    "category": "Prediction",
+    "headline": "Capture nonlinear behavior and explain its shape.",
+    "skills": [
+      "CART",
+      "Decision trees",
+      "Partial dependence"
+    ],
+    "overview": "Compared tree-based models with regression and used a park-attendance case to communicate nonlinear relationships.",
+    "work": "Completed the CART coding assignment and submitted an executive memo on temperature, time of day and humidity. The memo describes temperature as the strongest attendance driver and highlights daily peaks in the modeled relationships.",
+    "insight": "Partial-dependence patterns describe a fitted model. They should not automatically be interpreted as causal effects, especially when features are correlated.",
+    "application": "Operations forecasting: connect interpretable model behavior to staffing and capacity planning.",
+    "earned": 35,
+    "possible": 35,
+    "activities": [
+      {
+        "title": "Defining Gini Coefficients [Knowledge Check 14.1]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Making Predictions With Classification and Regression [Knowledge Check 14.2]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Classification and Regression Trees (CART) Analysis [Screencast and Discussion 14.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Running and Comparing a CART Analysis to a Regression Model [Assignment 14.1]",
+        "earned": 17,
+        "possible": 17
+      },
+      {
+        "title": "Explaining CART Model Results to Decision Makers [Assignment 14.2]",
+        "earned": 4,
+        "possible": 4
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 15,
+    "title": "Nonlinear Models for Regression and Classification: Ensemble Learning",
+    "category": "Prediction",
+    "headline": "Look beyond a strong headline accuracy.",
+    "skills": [
+      "XGBoost",
+      "Ensembles",
+      "ROC-AUC"
+    ],
+    "overview": "Explored ensemble learning and assessed a loan-default classifier. The written submission considered feature importance and challenged a potentially misleading evaluation result.",
+    "work": "My analysis reported approximately 83.4% test accuracy, with FICO and installment among the leading features. It also flagged a reported 50% ROC-AUC for investigation and recommended using predicted probabilities and a confusion matrix.",
+    "insight": "A high accuracy score can hide failure on the minority class. Feature-importance scores describe the fitted model and do not prove causation.",
+    "application": "Risk modeling: evaluate ranking, calibration and class-specific errors before choosing a decision threshold.",
+    "earned": 35,
+    "possible": 35,
+    "activities": [
+      {
+        "title": "Analyzing Search Advertising Components and Their Effect on CTR [Knowledge Check 15.1]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Evaluating Models Based on MAE, RMSE, and OSR2 [Knowledge Check 15.2]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Ensemble Models [Videos 15.4 – 15.5 and Discussion 15.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Interpreting the Elements of the XGBoost Algorithm [Knowledge Check 15.3]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Interpreting and Solving Problems With XGBoost [Video 15.8 and Assignment 15.1]",
+        "earned": 8,
+        "possible": 8
+      },
+      {
+        "title": "Module Summary [Video 15.9, Screencast, and Portfolio Assignment 15.1]",
+        "earned": 10,
+        "possible": 10
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 16,
+    "title": "Fairness and Bias Issues in Data-Driven Predictions",
+    "category": "Responsible AI",
+    "headline": "Evaluate who bears the cost of an error.",
+    "skills": [
+      "Fairness",
+      "Subgroup metrics",
+      "Human oversight"
+    ],
+    "overview": "Examined representation, measurement and automation bias through a facial-recognition analysis and a lending-model board memo.",
+    "work": "In the FairBank course case, both groups had a 16% overall error rate, yet false-denial rates were 30% and 18%. My memo recommended subgroup evaluation, better measures of repayment ability and ongoing monitoring.",
+    "insight": "Equal overall error rates can conceal materially different harms. Model evaluation must reflect the affected people and the consequence of each error.",
+    "application": "AI governance: define subgroup checks, escalation rules and meaningful human accountability.",
+    "earned": 35,
+    "possible": 35,
+    "activities": [
+      {
+        "title": "Detecting Bias and Building Fair Models [Video 16.1 and Discussion 16.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Reducing Harms [Video 16.2 and Discussion 16.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Identifying Types of Bias and Harm [Knowledge Check 16.1]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Recognizing Bias in Machine Learning [Discussion 16.3]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Employing the True Positive Rate (TPR) as a Mitigation Strategy [Knowledge Check 16.2]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Analyzing Potential Harm within AI [Assignment 16.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Analyzing the Fairbank Case [Knowledge Check 16.3]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Explaining Bias and Mitigation Strategies to Decision Makers [Assignment 16.2]",
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 17,
+    "title": "Neural Networks: Part One",
+    "category": "Deep learning",
+    "headline": "Learn representations from complex behavior.",
+    "skills": [
+      "Neural networks",
+      "Activation functions",
+      "Fraud detection"
+    ],
+    "overview": "Introduced neural networks and considered their suitability for structured and unstructured inputs. The written assignment explored social-network fraud as a changing behavioral problem.",
+    "work": "My fraud analysis proposed combining language, images, relationships and activity patterns, while examining false positives, evolving behavior, representative data and privacy.",
+    "insight": "An unusual behavior is not necessarily fraudulent. Thresholds, drift monitoring and a review process are essential to protect legitimate users.",
+    "application": "Trust and safety: use learned representations to prioritize investigation with appropriate review.",
+    "earned": 27,
+    "possible": 27,
+    "activities": [
+      {
+        "title": "Solving Problems Using Structured Data [Discussion 17.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Differentiating Between ML, AI, and Deep Learning [Knowledge Check 17.1]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Viewing Through a Network Lens [Videos 17.5-17.6 and Discussion 17.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Activation Functions [Knowledge Check 17.2]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Key Terminology in Neural Networks [Try-It Activity 17.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Applying Neural Networks to Fraud Detection [Assignment 17.1]",
+        "earned": 6,
+        "possible": 6
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 18,
+    "title": "Neural Networks: Part Two",
+    "category": "Deep learning",
+    "headline": "Trace the calculation from input to prediction.",
+    "skills": [
+      "ReLU",
+      "Sigmoid",
+      "TensorFlow",
+      "Keras"
+    ],
+    "overview": "Connected network mathematics to implementation through a hand-worked forward pass and a heart-disease classification exercise.",
+    "work": "The submitted calculation gives hidden activations 5.5975, 1.573 and 0; output pre-activation −2.047225; and sigmoid output approximately 0.1143. The Codio portfolio assignment implemented a neural network with TensorFlow and Keras.",
+    "insight": "A pre-activation value and an activated probability are different quantities. Naming each stage makes implementation errors easier to identify.",
+    "application": "Model review: verify simple calculations before trusting a larger training pipeline.",
+    "earned": 45,
+    "possible": 45,
+    "activities": [
+      {
+        "title": "Module Introduction: Building Deep Learning Neural Networks [Video 18.1 and Try-It Activity 18.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Output Layers and Loss Functions [Videos 18.2–18.3 and Try-It Activity 18.2]",
+        "earned": 10,
+        "possible": 10
+      },
+      {
+        "title": "Identifying the Design Process of Deep Neural Networks [Knowledge Check 18.1]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Training a Deep Neural Network [Video 18.4 and Assignment 18.1]",
+        "earned": 8,
+        "possible": 8
+      },
+      {
+        "title": "Employing Techniques to Avoid Overfitting and Underfitting [Discussion 18.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Portfolio Assignment 18.1: Using TensorFlow and Keras to Create a Neural Network",
+        "earned": 14,
+        "possible": 14
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 19,
+    "title": "Neural Networks: Part Three",
+    "category": "Deep learning",
+    "headline": "Reuse learned visual features with care.",
+    "skills": [
+      "CNNs",
+      "Transfer learning",
+      "Data augmentation"
+    ],
+    "overview": "Studied image representations, convolutional layers and transfer learning. The module connected architecture concepts to multiclass image classification.",
+    "work": "Completed the ResNet/Keras transfer-learning portfolio assignment in Codio, supported by exercises on convolution and data augmentation. Original hosted code is not exportable from this platform.",
+    "insight": "Transfer learning can reduce training requirements, but target-domain performance still requires representative validation. Augmentation must preserve label meaning.",
+    "application": "Visual inspection: adapt established image models, then evaluate the actual operating conditions.",
+    "earned": 39,
+    "possible": 39,
+    "activities": [
+      {
+        "title": "Translating Images into Numbers [Knowledge Check 19.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Image Classification Models [Screencast and Discussion 19.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Analyzing the Relationship Between Convolutional Neural Networks (CNNs) and Image Classification [Knowledge Check 19.2]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Building a Convolutional Neural Network (CNN) [Screencast and Try-It Activity 19.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Transfer Learning and Data Augmentation [Video 19.4 and Try-It Activity 19.2]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Module Wrap-Up: Applying Transfer Learning using ResNet and Keras [Screencasts and Discussion 19.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Executing Transfer Learning on a Multi-Class Image Classification Problem [Portfolio Assignment 19.1]",
+        "earned": 14,
+        "possible": 14
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 20,
+    "title": "Natural Language Processing: Part One",
+    "category": "Deep learning",
+    "headline": "Distinguish contextual similarity from meaning.",
+    "skills": [
+      "Word embeddings",
+      "NLP",
+      "Sentiment analysis"
+    ],
+    "overview": "Explored word representations and sentiment classification. A written analysis tested whether vector similarity distinguishes synonyms from antonyms.",
+    "work": "My embedding experiment found high/low similarity of 0.8511, compared with good/excellent at 0.8062. I also completed the IMDB sentiment-classification portfolio assignment in Codio.",
+    "insight": "Words with opposite meanings may appear in similar contexts and therefore have nearby vectors. A downstream task needs context beyond similarity alone.",
+    "application": "Clinical and operational text: evaluate semantic errors before using extracted language in decisions.",
+    "earned": 32,
+    "possible": 32,
+    "activities": [
+      {
+        "title": "Module Introduction: Natural Language Processing [Video 20.1 and Discussion 20.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Practicing With Text Vectorization [Knowledge Check 20.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "NLP Coding Walk-Through: Part Two [Screencast and Assignment 20.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Identifying Key Components of Word Embeddings [Knowledge Check 20.2]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Determining the Sentiment of IMDB Reviews [Portfolio Assignment 20.1]",
+        "earned": 11,
+        "possible": 11
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 21,
+    "title": "Natural Language Processing: Part Two",
+    "category": "Deep learning",
+    "headline": "Represent both the words and their context.",
+    "skills": [
+      "Transformers",
+      "Intent detection",
+      "Slot filling"
+    ],
+    "overview": "Explored contextual language models, positional information and the transformer approach. The coursework moved from static word representations toward sequence-level understanding.",
+    "work": "Completed the portfolio coding assignment addressing query intent and slot extraction, alongside assessments on attention and contextual representation.",
+    "insight": "Intent and extracted entities must be evaluated separately. A plausible sentence-level prediction can still contain an incorrect operational detail.",
+    "application": "Conversational systems: map a request into a supported intent and validated structured fields.",
+    "earned": 29,
+    "possible": 29,
+    "activities": [
+      {
+        "title": "Module Introduction: Information Retrieval and Predicting Query Intent [Videos 21.1–21.2, Interactive Presentation, and Discussion 21.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "NLP Coding Walk-Through: Part One [Screencast and Try-It Activity 21.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Utilizing Transformers to Improve the Model [Interactive Presentation, Video 21.6-21.7 and Try It Activity 21.2]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "NLP Coding Walk-Through: Part Two [Screencast and Discussion 21.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Module Summary [Video 21.8 and Portfolio Assignment 21.1]",
+        "earned": 13,
+        "possible": 13
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 22,
+    "title": "Interpretability and Causality in Models",
+    "category": "Responsible AI",
+    "headline": "Keep a complex signal accountable at the decision layer.",
+    "skills": [
+      "Interpretability",
+      "Causality",
+      "Telematics"
+    ],
+    "overview": "Proposed incorporating third-party telematics into an insurance pricing model while preserving an understandable final decision process.",
+    "work": "My submitted paper recommends a separate behavioral-risk model feeding a simpler pricing layer, with checks for exposure, identity, sensor quality, consent, subgroup effects and drift.",
+    "insight": "Interpretability does not itself establish causality. A two-stage design still needs causal assumptions, appropriate validation and careful treatment of selection and confounding.",
+    "application": "Decision architecture: separate rich representation learning from an auditable decision layer.",
+    "earned": 29,
+    "possible": 29,
+    "activities": [
+      {
+        "title": "Building and Interpreting Managerial Predictive Models [Video 22.1 and Discussion 22.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Improving Interpretability of Black Box Models [Knowledge Check 22.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Auditing Black Box Models [Interactive Presentation and Try-It Activity 22.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Chest Radiographs Model Example [Video 22.3-22.4 and Discussion 22.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Identifying Interpretability Limitations of Current AI Models [Knowledge Check 22.2]",
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "title": "Propose Model Updates Using Third-Party Data [Assignment 22.1]",
+        "earned": 8,
+        "possible": 8
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 23,
+    "title": "Data, Models, and Decisions",
+    "category": "Leadership",
+    "headline": "Choose the right level of automation for the decision.",
+    "skills": [
+      "AI taxonomy",
+      "Human-in-the-loop",
+      "Implementation"
+    ],
+    "overview": "Applied an AI use-case taxonomy to alarm management, inventory and accounting, then developed a clinical-documentation implementation proposal.",
+    "work": "My proposal combines speech recognition and NLP with deterministic validation to draft structured clinical records. The clinician reviews and approves the final record. The taxonomy paper reserves uncertain or consequential decisions for expert judgment.",
+    "insight": "Automation should follow the structure of the input and the consequence of the output. Accountability remains an explicit design choice.",
+    "application": "PAN Enterprise: develop governed clinical-documentation assistance with human approval and auditability.",
+    "earned": 50,
+    "possible": 50,
+    "activities": [
+      {
+        "title": "Analyzing the Li & Fung Digital Platform [Discussion 23.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Analyzing Amazon Go Shopping Technology [Discussion 23.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Analyzing Nauto’s AI Dash Camera [Discussion 23.3]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Defining Measures of Process Performance [Knowledge Check 23.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Rule-Based Automation [Videos 23.2-23.3, Interactive Presentation and Discussion 23.4]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Propose a Candidate for ML-Enabled Automation [Discussion 23.5]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "ML-Enabled Functionalities vs. Human Experts [Video 23.7-23.8 and Try-It Activity 23.1]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Applying Taxonomy Use Cases to Scenarios [Assignment 23.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Personalization and AI-Enabled Products [Video 23.9-23.10 and Try-It Activity 23.2]",
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "title": "Module Wrap-Up [Video 23.11 and Portfolio Assignment 23.1]",
+        "earned": 6,
+        "possible": 6
+      }
+    ],
+    "evidence": []
+  },
+  {
+    "number": 24,
+    "title": "Leading Digital Transformations",
+    "category": "Leadership",
+    "headline": "Turn an AI capability into an operating strategy.",
+    "skills": [
+      "Digital strategy",
+      "Organizational change",
+      "Governance"
+    ],
+    "overview": "Integrated analytics, leadership and organizational change in a digital-transformation playbook for PAN AI and PAN Analytics.",
+    "work": "The submitted playbook connects ambient documentation, the shared PAN data model and longitudinal analytics. It sets out a phased strategy, governance, capabilities and stakeholder involvement. Later portfolio extensions apply the same thinking to critical-infrastructure alarm management.",
+    "insight": "The operating model, data foundation and adoption plan are part of the transformation. Benefits remain hypotheses until measured against a baseline.",
+    "application": "Transformation leadership: establish a baseline, pilot, validate acceptance criteria and scale with controlled change.",
+    "earned": 37,
+    "possible": 37,
+    "activities": [
+      {
+        "title": "Applying the Three Lenses Framework [Knowledge Check 24.1]",
+        "earned": 4,
+        "possible": 4
+      },
+      {
+        "title": "Massachusetts General Hospital (MGH) Predictive Discharge Tool: Recap and Implementation [Video 24.2 and Discussion 24.1]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "The Business Translator Role [Video 24.6 and Discussion 24.2]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Determining the Skills of a Business Translator [Knowledge Check 24.1]",
+        "earned": 5,
+        "possible": 5
+      },
+      {
+        "title": "Littoral Combat Ship Case Study [Video 24.7 and Discussion 24.3]",
+        "earned": 6,
+        "possible": 6
+      },
+      {
+        "title": "Planning for Digital Transformation [Portfolio Assignment 24.1]",
+        "earned": 10,
+        "possible": 10
+      }
+    ],
+    "evidence": []
+  }
+]
