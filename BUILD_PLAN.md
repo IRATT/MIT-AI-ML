@@ -1,11 +1,14 @@
-# Three-page portfolio structure
+# Continuous portfolio structure
 
-| Page | Content |
-| --- | --- |
-| Overview (`index.html`) | Introduction, 100% achievement, five takeaways, certificate and two awards |
-| Projects (`projects.html`) | Four concise case summaries and optional course-file downloads |
-| Course record (`course.html`) | All 24 module summaries and scores, with evidence and authorship notes |
+Use one content page, `index.html`, with this flow:
 
-Keep the main navigation to these three pages. New detail should be added only where it strengthens an existing summary or supplies supporting evidence. Prior detailed-page URLs remain as redirects, so shared links continue to work. Historical versions remain in Git history.
+1. Introduction and 100% achievement.
+2. Five concise program takeaways.
+3. Four selected project summaries.
+4. Official completion certificate and two assignment awards.
+5. Course-record disclosure, collapsed by default, containing all 24 modules and grades.
+6. Optional evidence and authorship notes.
 
-Before publishing, rebuild and validate grades, module coverage, page count, internal links and redirect targets. Check desktop and mobile layouts when their presentation changes.
+Navigation moves between sections on the same page. Links to module rows open the course record before scrolling to their target. Native disclosure controls work with keyboard input. Respect reduced-motion preferences and preserve mobile readability.
+
+Old page URLs redirect directly to sections in the continuous portfolio. Keep original private submissions private; public downloads remain available. Before publishing, verify the single-page structure, collapsed initial state, grades, links, redirects, keyboard operation and responsive layout.

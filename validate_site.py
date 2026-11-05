@@ -1,4 +1,4 @@
-"""Verify the three-page structure, full grade record and preserved old links."""
+"""Verify the single page, collapsed course record, grades and legacy links."""
 import json
 from pathlib import Path
 from html.parser import HTMLParser
@@ -16,6 +16,7 @@ class Page(HTMLParser):
         super().__init__()
         self.links, self.ids, self.modules = [], set(), set()
         self.h1, self.redirect, self.in_nav, self.nav = 0, False, False, []
+        self.record_present, self.record_open = False, False
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if 'id' in a:
@@ -23,6 +24,8 @@ class Page(HTMLParser):
             self.ids.add(a['id'])
         if 'data-module' in a: self.modules.add(int(a['data-module']))
         if tag == 'h1': self.h1 += 1
+        if tag == 'details' and a.get('id') == 'module-record':
+            self.record_present, self.record_open = True, 'open' in a
         if tag == 'meta' and a.get('http-equiv', '').lower() == 'refresh':
             self.redirect = True
             self.links.append(a['content'].split('url=', 1)[1])
@@ -41,10 +44,11 @@ for p in ROOT.rglob('*.html'):
     assert parser.h1 == 1, (p, 'expected one h1')
     pages[p] = parser
 content = {p.name for p, parsed in pages.items() if not parsed.redirect and p.name != '404.html'}
-assert content == {'index.html', 'projects.html', 'course.html'}, content
-assert pages[ROOT / 'course.html'].modules == set(range(1, 25))
+assert content == {'index.html'}, content
+assert pages[ROOT / 'index.html'].modules == set(range(1, 25))
 for name in content:
-    assert pages[ROOT / name].nav == ['index.html', 'projects.html', 'course.html']
+    assert pages[ROOT / name].nav == ['#projects', '#recognition', '#course-record']
+assert pages[ROOT / 'index.html'].record_present and not pages[ROOT / 'index.html'].record_open
 errors = []
 for p, parsed in pages.items():
     for link in parsed.links:
@@ -59,4 +63,4 @@ for p, parsed in pages.items():
 assert not errors, errors
 public = '\n'.join(p.read_text() for p in ROOT.rglob('*') if p.suffix in ['.html', '.json'])
 assert '/submissions/' not in public
-print(f'PASS: 3 content pages; {sum(p.redirect for p in pages.values())} legacy redirects; 24 modules; 144 activities; 813/813 points; links, anchors and redirects valid.')
+print(f'PASS: 1 content page, course record collapsed by default; {sum(p.redirect for p in pages.values())} legacy redirects; 24 modules; 144 activities; 813/813 points; links, anchors and redirects valid.')
