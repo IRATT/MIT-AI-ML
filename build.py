@@ -1,5 +1,6 @@
 """Build one continuous portfolio with an expandable course record."""
 import html
+import hashlib
 import json
 from pathlib import Path
 
@@ -15,8 +16,10 @@ def e(value):
 
 def page(path, title, description, body, active):
     prefix = '' if path == 'index.html' else 'index.html'
+    css_version = hashlib.sha256((ROOT / 'assets/style.css').read_bytes()).hexdigest()[:10]
+    js_version = hashlib.sha256((ROOT / 'assets/app.js').read_bytes()).hexdigest()[:10]
     nav = ''.join(f'<a href="{prefix}{anchor}">{label}</a>' for anchor, label in [('#projects', 'Projects'), ('#recognition', 'Recognition'), ('#course-record', 'Course record')])
-    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)} | Ian Alleyne</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#102e38"><meta property="og:title" content="{e(title)} | Ian Alleyne"><meta property="og:description" content="{e(description)}"><meta property="og:type" content="website"><link rel="canonical" href="{SITE}{path}"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css"><script defer src="assets/app.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap nav-inner"><a class="brand" href="{prefix}#about"><span class="monogram" aria-hidden="true">IA</span><span>Ian Alleyne<small>Applied AI & advanced analytics</small></span></a><nav aria-label="Main navigation">{nav}<a class="github-link" href="https://github.com/IRATT/">GitHub ↗</a></nav></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{body}</main><footer class="footer"><div class="wrap footer-inner"><p>© 2026 Ian Alleyne · Independent learner portfolio<br>MIT xPRO Professional Certificate in Advanced Analytics with AI, ML, and Data Science</p><a href="{prefix}#evidence">Evidence & authorship</a></div></footer></body></html>'''
+    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)} | Ian Alleyne</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#102e38"><meta property="og:title" content="{e(title)} | Ian Alleyne"><meta property="og:description" content="{e(description)}"><meta property="og:type" content="website"><link rel="canonical" href="{SITE}{path}"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css?v={css_version}"><script defer src="assets/app.js?v={js_version}"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap nav-inner"><a class="brand" href="{prefix}#about"><span class="monogram" aria-hidden="true">IA</span><span>Ian Alleyne<small>Applied AI & advanced analytics</small></span></a><nav aria-label="Main navigation">{nav}<a class="github-link" href="https://github.com/IRATT/">GitHub ↗</a></nav></div><div class="reading-progress" aria-hidden="true"></div></header><main id="main">{body}</main><footer class="footer"><div class="wrap footer-inner"><p>© 2026 Ian Alleyne · Independent learner portfolio<br>MIT xPRO Professional Certificate in Advanced Analytics with AI, ML, and Data Science</p><a href="{prefix}#evidence">Evidence & authorship</a></div></footer></body></html>'''
     (ROOT / path).write_text(doc)
 
 def award_card(a):
