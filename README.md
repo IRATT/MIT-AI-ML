@@ -1,3 +1,18 @@
+# Ian Alleyne — Professional Learning Portfolios
+
+[Explore all four portfolios](https://iratt.github.io/MIT-AI-ML/portfolio.html)
+
+- [MIT xPRO — Advanced Analytics](https://iratt.github.io/MIT-AI-ML/)
+- [BACnet Basics](https://iratt.github.io/MIT-AI-ML/bacnet.html)
+- [Schneider Electric — Data Center Foundations](https://iratt.github.io/MIT-AI-ML/schneider.html)
+- [CNet Training — CDCDP](https://iratt.github.io/MIT-AI-ML/cdcdp.html)
+
+Run `python3 build.py` to regenerate the MIT portfolio and supporting pages, or `python3 build_hub.py` for the hub and three additional portfolios. The existing MIT URL remains unchanged.
+
+Additional portfolios summarize Ian's supplied training files. Certificates were reviewed for credential details, but the original PDFs are not published. BACnet completion is learner-reported. Full training manuals, administrative files and raw assignment solutions remain private.
+
+---
+
 # Ian Alleyne | Applied AI & Advanced Analytics
 
 **MIT xPRO Professional Certificate in Advanced Analytics with AI, ML, and Data Science**
@@ -30,3 +45,4 @@ Grades are final recorded results, including accepted resubmissions, reviewed on
 The takeaways paraphrase the supplied closing slide and 1:17 wrap-up. Course cases, starter code and templates retain their original attribution. AI assistance was used to organize, edit and build the portfolio. Educational model results and proposed applications are identified separately from measured deployment outcomes. The page’s expandable evidence notes document model discrepancies and source limitations.
 
 Portfolio presentation and original commentary © 2026 Ian Alleyne. Third-party material retains its respective ownership.
+
